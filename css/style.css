@@ -1,7 +1,7 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	color: #595959;
+	font-size: 12px;
+	color: #848484;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 }
@@ -16,6 +16,9 @@ body {
 	color: #4caf50;
 }
 .title a:hover {
+	text-decoration: none;
+}
+.title a:visited {
 	text-decoration: none;
 }
 .navigation {
@@ -37,9 +40,14 @@ body {
 	background-color: initial;
 	color: #f89b35;
 }
+.nav>li>a:hover {
+	background-color: initial;
+	color: #f89b35;
+}
 .post {
 	margin-bottom: 20px;
 }
+
 .post img {
 	width: 100%;
 	-webkit-box-sizing:border-box;
@@ -50,22 +58,31 @@ body {
 	padding: 0 20px 20px 20px;
 }
 .big-post-data {
-	background-color: rgba(89, 89, 89, 0.3);
+	background-color: rgba(89, 89, 89, 0.4);
 	position: absolute;
 	bottom: 50px;
 	color: #fff;
 	margin-right: 15px;
 }
 .post h2 {
-	font-size: 18px;
+	font-size: 16px;
+	color: #000000;
 }
+.post h2:hover {
+	color:#f89b35;
+	text-decoration:inherit;
+}
+
+https://github.com/HackSpb/eco-project.git
+
 .big-post-data h2 {
-	font-size: 30px;
+	font-size: 28px;
 	padding-left: 15px;
 }
 .big-post-data p {
-	font-size: 20px;
+	font-size: 18px;
 	padding-left: 15px;
+	line-height: normal;
 }
 .type-1{
 	background: #fff9c4;
@@ -76,6 +93,8 @@ body {
 .type-3{
 	background: #e8eaf6;
 }
+
+
 .last-posts {
 	border: 2px solid #E5E5E5;
 	padding: 10px;
